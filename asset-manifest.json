@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shopping-list-react/static/css/main.6921effd.chunk.css",
-    "main.js": "/shopping-list-react/static/js/main.957338d2.chunk.js",
-    "main.js.map": "/shopping-list-react/static/js/main.957338d2.chunk.js.map",
+    "main.css": "/shopping-list-react/static/css/main.2bada1fb.chunk.css",
+    "main.js": "/shopping-list-react/static/js/main.bbd0dfa2.chunk.js",
+    "main.js.map": "/shopping-list-react/static/js/main.bbd0dfa2.chunk.js.map",
     "runtime-main.js": "/shopping-list-react/static/js/runtime-main.ed441d75.js",
     "runtime-main.js.map": "/shopping-list-react/static/js/runtime-main.ed441d75.js.map",
     "static/css/2.aff85733.chunk.css": "/shopping-list-react/static/css/2.aff85733.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.87f69a71.chunk.js.map": "/shopping-list-react/static/js/2.87f69a71.chunk.js.map",
     "index.html": "/shopping-list-react/index.html",
     "static/css/2.aff85733.chunk.css.map": "/shopping-list-react/static/css/2.aff85733.chunk.css.map",
-    "static/css/main.6921effd.chunk.css.map": "/shopping-list-react/static/css/main.6921effd.chunk.css.map",
+    "static/css/main.2bada1fb.chunk.css.map": "/shopping-list-react/static/css/main.2bada1fb.chunk.css.map",
     "static/js/2.87f69a71.chunk.js.LICENSE.txt": "/shopping-list-react/static/js/2.87f69a71.chunk.js.LICENSE.txt",
     "static/media/300.css": "/shopping-list-react/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
     "static/media/400.css": "/shopping-list-react/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.ed441d75.js",
     "static/css/2.aff85733.chunk.css",
     "static/js/2.87f69a71.chunk.js",
-    "static/css/main.6921effd.chunk.css",
-    "static/js/main.957338d2.chunk.js"
+    "static/css/main.2bada1fb.chunk.css",
+    "static/js/main.bbd0dfa2.chunk.js"
   ]
 }
