@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zalan0724.github.io/shopping-list-react/static/css/main.6921effd.chunk.css",
-    "main.js": "/zalan0724.github.io/shopping-list-react/static/js/main.3caf33f1.chunk.js",
-    "main.js.map": "/zalan0724.github.io/shopping-list-react/static/js/main.3caf33f1.chunk.js.map",
+    "main.js": "/zalan0724.github.io/shopping-list-react/static/js/main.c5e17e3f.chunk.js",
+    "main.js.map": "/zalan0724.github.io/shopping-list-react/static/js/main.c5e17e3f.chunk.js.map",
     "runtime-main.js": "/zalan0724.github.io/shopping-list-react/static/js/runtime-main.8088b8b0.js",
     "runtime-main.js.map": "/zalan0724.github.io/shopping-list-react/static/js/runtime-main.8088b8b0.js.map",
     "static/css/2.5cc7d787.chunk.css": "/zalan0724.github.io/shopping-list-react/static/css/2.5cc7d787.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.5cc7d787.chunk.css",
     "static/js/2.2df5e47d.chunk.js",
     "static/css/main.6921effd.chunk.css",
-    "static/js/main.3caf33f1.chunk.js"
+    "static/js/main.c5e17e3f.chunk.js"
   ]
 }
