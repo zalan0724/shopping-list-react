@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/shopping-list-react/static/css/main.6921effd.chunk.css",
-    "main.js": "/shopping-list-react/static/js/main.d67f0464.chunk.js",
-    "main.js.map": "/shopping-list-react/static/js/main.d67f0464.chunk.js.map",
-    "runtime-main.js": "/shopping-list-react/static/js/runtime-main.ed441d75.js",
-    "runtime-main.js.map": "/shopping-list-react/static/js/runtime-main.ed441d75.js.map",
-    "static/css/2.aff85733.chunk.css": "/shopping-list-react/static/css/2.aff85733.chunk.css",
-    "static/js/2.d7a6c5c5.chunk.js": "/shopping-list-react/static/js/2.d7a6c5c5.chunk.js",
-    "static/js/2.d7a6c5c5.chunk.js.map": "/shopping-list-react/static/js/2.d7a6c5c5.chunk.js.map",
-    "index.html": "/shopping-list-react/index.html",
-    "static/css/2.aff85733.chunk.css.map": "/shopping-list-react/static/css/2.aff85733.chunk.css.map",
-    "static/css/main.6921effd.chunk.css.map": "/shopping-list-react/static/css/main.6921effd.chunk.css.map",
-    "static/js/2.d7a6c5c5.chunk.js.LICENSE.txt": "/shopping-list-react/static/js/2.d7a6c5c5.chunk.js.LICENSE.txt",
-    "static/media/300.css": "/shopping-list-react/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
-    "static/media/400.css": "/shopping-list-react/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
-    "static/media/500.css": "/shopping-list-react/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
-    "static/media/700.css": "/shopping-list-react/static/media/roboto-vietnamese-700-normal.3096f18a.woff2"
+    "main.css": "/zalan0724.github.io/shopping-list-react/static/css/main.6921effd.chunk.css",
+    "main.js": "/zalan0724.github.io/shopping-list-react/static/js/main.3caf33f1.chunk.js",
+    "main.js.map": "/zalan0724.github.io/shopping-list-react/static/js/main.3caf33f1.chunk.js.map",
+    "runtime-main.js": "/zalan0724.github.io/shopping-list-react/static/js/runtime-main.8088b8b0.js",
+    "runtime-main.js.map": "/zalan0724.github.io/shopping-list-react/static/js/runtime-main.8088b8b0.js.map",
+    "static/css/2.5cc7d787.chunk.css": "/zalan0724.github.io/shopping-list-react/static/css/2.5cc7d787.chunk.css",
+    "static/js/2.2df5e47d.chunk.js": "/zalan0724.github.io/shopping-list-react/static/js/2.2df5e47d.chunk.js",
+    "static/js/2.2df5e47d.chunk.js.map": "/zalan0724.github.io/shopping-list-react/static/js/2.2df5e47d.chunk.js.map",
+    "index.html": "/zalan0724.github.io/shopping-list-react/index.html",
+    "static/css/2.5cc7d787.chunk.css.map": "/zalan0724.github.io/shopping-list-react/static/css/2.5cc7d787.chunk.css.map",
+    "static/css/main.6921effd.chunk.css.map": "/zalan0724.github.io/shopping-list-react/static/css/main.6921effd.chunk.css.map",
+    "static/js/2.2df5e47d.chunk.js.LICENSE.txt": "/zalan0724.github.io/shopping-list-react/static/js/2.2df5e47d.chunk.js.LICENSE.txt",
+    "static/media/300.css": "/zalan0724.github.io/shopping-list-react/static/media/roboto-vietnamese-300-normal.af9afdc1.woff2",
+    "static/media/400.css": "/zalan0724.github.io/shopping-list-react/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/500.css": "/zalan0724.github.io/shopping-list-react/static/media/roboto-vietnamese-500-normal.b8e494da.woff2",
+    "static/media/700.css": "/zalan0724.github.io/shopping-list-react/static/media/roboto-vietnamese-700-normal.3096f18a.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed441d75.js",
-    "static/css/2.aff85733.chunk.css",
-    "static/js/2.d7a6c5c5.chunk.js",
+    "static/js/runtime-main.8088b8b0.js",
+    "static/css/2.5cc7d787.chunk.css",
+    "static/js/2.2df5e47d.chunk.js",
     "static/css/main.6921effd.chunk.css",
-    "static/js/main.d67f0464.chunk.js"
+    "static/js/main.3caf33f1.chunk.js"
   ]
 }
