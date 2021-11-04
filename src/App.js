@@ -18,7 +18,8 @@ const App = () => {
 
     const db = firebase.firestore()
 
-    const [userID, setUserID] = useState(localStorage.getItem('userID')? localStorage.getItem('userID') : '')
+    const [userID, setUserID] = useState(localStorage.getItem('userID') ? localStorage.getItem('userID') : '')
+
 
     const handleUpdate = (event) => {
         db.collection('items')
@@ -32,7 +33,6 @@ const App = () => {
     const addItem = async (item) => {
         await db.collection("items")
             .add(item)
-            .then(() => console.log('hozzaadva'))
             .catch(err => console.log(err))
     };
 
@@ -44,11 +44,19 @@ const App = () => {
             .catch(err => console.log(err))
     }
 
-    const resetApp = () => {
+    const resetApp = async (keep) => {
+        if(!keep) {
+            const documents = db.collection('items').where('user', '==', userID)
+            await documents.get().then(function (querySnapshot) {
+                querySnapshot.forEach(function (doc) {
+                    doc.ref.delete()
+                })
+            })
+        }
         setUserID('')
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         localStorage.setItem('userID', userID)
     }, [userID])
 
@@ -65,14 +73,14 @@ const App = () => {
                 <Route exact path={'/account'}>
                     <AccountSettings resetApp={resetApp}/>
                 </Route>
-                <Route exact path={'/linkAccount'}>
+                <Route path={'/linkAccount'}>
                     <LinkToAccount setUserID={setUserID}/>
                 </Route>
                 <Route exact path={'/newAccount'}>
                     <NewAccount setUserID={setUserID}/>
                 </Route>
                 <Route exact path={'/'}>
-                    {userID!=='' ?
+                    {userID !== '' ?
                         <DisplayItems handleUpdate={handleUpdate} sx={{height: '100vh'}}/>
                         : <Redirect to={'/newAccount'}/>}
                 </Route>
