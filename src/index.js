@@ -7,7 +7,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import firebase from "firebase/compat";
-import {BrowserRouter } from "react-router-dom";
+import {BrowserRouter, HashRouter} from "react-router-dom";
 
 firebase.initializeApp({
     apiKey: process.env.REACT_APP_apiKey,
@@ -21,9 +21,9 @@ firebase.initializeApp({
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <App/>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>,
     document.getElementById('root')
 );
